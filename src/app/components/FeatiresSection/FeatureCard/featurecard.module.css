@@ -1,0 +1,33 @@
+.card {
+  width: 411px;
+  height: 443px;
+
+  border-radius: 8px;
+  background: var(--gray--1);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+
+  padding: 145px 65px;
+}
+
+.card > main {
+  text-align: center;
+  gap: 3px;
+}
+
+.card > main > h1 {
+  color: var(--gray--2);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.card > main > p {
+  color: var(--gray--7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}

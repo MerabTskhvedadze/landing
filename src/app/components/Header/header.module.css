@@ -1,0 +1,44 @@
+.navigation {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-style: normal;
+  font-weight: 500;
+}
+
+.actions ul {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+.actions li:nth-child(2) {
+  display: flex;
+  gap: 4px;
+}
+
+.actions li:nth-child(3) {
+  display: flex;
+  gap: 24px;
+}
+
+.actions li:nth-child(3) a {
+  all: unset;
+  cursor: pointer;
+
+  color: var(--gray--2);
+  font-size: 18px;
+}
+
+.auth ul {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.auth li:first-child {
+  display: flex;
+  gap: 16px;
+}

@@ -1,0 +1,55 @@
+.button {
+  all: unset;
+  user-select: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+
+  border-radius: 12px;
+
+  cursor: pointer;
+
+  transition: background-color 0.2s ease-in-out;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0);
+}
+
+.ghostBtn {
+  background: var(--gray--1);
+  color: var(--gray--5);
+  padding: 12px 48px;
+
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.ghostBtn:hover {
+  background: var(--gray--4);
+}
+
+.ghostBtn:focus-visible {
+  outline: 4px solid var(--gray--4);
+  outline-offset: 1px;
+  transition: outline-offset 0s, outline 0s;
+}
+
+.iconBtn {
+  background: var(--blue--1--20op);
+  padding: 11px 24px;
+}
+
+.iconBtn:hover {
+  background: var(--blue--1);
+}
+
+.iconBtn:focus-visible {
+  outline: 4px solid var(--blue--1);
+  outline-offset: 1px;
+  transition: outline-offset 0s, outline 0s;
+}
+
+.defaultBtn {
+  all: unset;
+}

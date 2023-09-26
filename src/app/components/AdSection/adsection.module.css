@@ -1,0 +1,59 @@
+.adSection > main {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 48px;
+}
+
+.description {
+  max-width: 518px;
+  width: 100%;
+}
+
+.description > h1 {
+  color: var(--gray--3);
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 56px;
+  margin-bottom: 24px;
+}
+
+.description > p {
+  color: var(--gray--5);
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 48px;
+}
+
+.description > div {
+  margin-top: 24px;
+  max-width: 411px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.adImage > div:first-child {
+  width: 518px;
+  height: 424px;
+  border-radius: 10px;
+  background: var(--gray--4);
+}
+
+.adImage > div:last-child {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.offers {
+  margin-top: 93px;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}

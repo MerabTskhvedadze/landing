@@ -1,0 +1,25 @@
+.select {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.select select {
+  width: fit-content;
+  all: unset;
+  cursor: pointer;
+
+  color: var(--gray--2);
+
+  font-size: 18px;
+}
+
+.select select:focus + .icon {
+  transform: rotate(180deg);
+}
+
+.icon {
+  /* padding-top: 4px; */
+  width: fit-content;
+  height: fit-content;
+}

@@ -1,0 +1,72 @@
+.topCurrencies {
+  background: var(--gray--6);
+  margin-top: 72px;
+  padding: 64px 320px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.topCurrencies > header {
+  text-align: center;
+}
+
+.topCurrencies > header > h1 {
+  color: var(--gray--3);
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 32px;
+
+  margin-bottom: 18px;
+}
+
+.topCurrencies > header > p {
+  color: var(--gray--2);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.topCurrencies > main {
+  margin-top: 76px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.currencyTable {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.currencyTable > div {
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  border-bottom: 1px solid var(--gray--4);
+}
+
+.currencyTable div > p {
+  padding: 16px 24px;
+}
+
+.currencyTable > div:nth-child(1) > p {
+  color: var(--gray--2);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.chart {
+  padding: 16px 24px;
+  height: 65px;
+  width: 175px;
+}
+
+.currencyTable > div > div:nth-child(1) {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  gap: 3px;
+}
